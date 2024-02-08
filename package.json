@@ -1,18 +1,18 @@
 {
-  "name": "protoo-server",
-  "version": "4.0.6",
-  "description": "protoo Node.js server module",
-  "author": "Iñaki Baz Castillo <ibc@aliax.net>",
-  "homepage": "https://protoo.versatica.com",
+  "name": "cignal-io-server",
+  "version": "1.0.0",
+  "description": "cignal-io Node.js server module",
+  "author": "Saurav Panda",
+  "homepage": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibc/protoo.git"
+    "url": "https://github.com/sauravkp/cignal-io-server.git"
   },
   "main": "lib/index.js",
   "keywords": [
     "nodejs",
-    "websocket"
+    "socket.io"
   ],
   "engines": {
     "node": ">=8.0.0"
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "debug": "^4.3.1",
-    "websocket": "^1.0.33"
+    "socket.io": "^4.5.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
